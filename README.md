@@ -39,8 +39,8 @@ The model was trained on the **SMS Spam Collection Dataset**, containing labeled
    - XGBoost Classifier
 
 5. Model Selection
-   Among all the trained models, **Extra Trees Classifier (ETC)** achieved the best performance and was selected as the final model for deployment.
-
+   Among all the trained models, **Multinomial Naive Bayes (MNB)** achieved the best performance and was selected as the final model for deployment.
+  
 ## Technologies Used
 
 - Python
