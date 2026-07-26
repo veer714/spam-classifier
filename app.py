@@ -32,7 +32,7 @@ def transform_text(text):
 tf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
-st.title("E-Mail/SMS Classifier")
+st.title("SMS Classifier")
 input_sms = st.text_area("Message",height = 180,placeholder = "Enter Message Here...")
 
 if st.button("Predict"):
